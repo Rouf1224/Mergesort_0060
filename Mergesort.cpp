@@ -50,3 +50,9 @@ while (j <= high) //step 4e.i
     k++;
 }
 
+while (i <= mid)
+{
+    B[k] = arr[i]; //step 4f.i
+    i++;          //step 4f.ii
+    k++;          //step 4f.iii
+}
