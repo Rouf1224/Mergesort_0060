@@ -20,4 +20,11 @@ void mergeSort(int low, int high){
 
 mergeSort(low, mid); //step 3a
 mergeSort(mid+1, high); //step 3b
+
+int i = low; //step 4a
+int j, k;
+j = mid + 1; //step 4b
+k = low; //step 4c
+
+
 }
