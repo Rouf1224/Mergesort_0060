@@ -18,6 +18,6 @@ void mergeSort(int low, int high){
 
     int mid = (low + high) / 2; //step 2
 
-mergesort(low, mid); //step 3a
-mergesort(mid+1, high); //step 3b
+mergeSort(low, mid); //step 3a
+mergeSort(mid+1, high); //step 3b
 }
