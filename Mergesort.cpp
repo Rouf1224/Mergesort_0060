@@ -6,7 +6,18 @@ int n;
 
 void input()
 {
+while (true)
+{
+    cout << "Masukkan panjang element array : ";
+    cin >> n;
+    if (n <= 20)
+    break;
+    cout << "\nMAksimal panjang array adalah 20" << endl;
+}
 
+cout << "\n-------------" << endl;
+cout << "Inputkan isi elemen array" << endl;
+cout << 
 }
 
 void mergeSort(int low, int high){
@@ -55,4 +66,11 @@ while (i <= mid)
     B[k] = arr[i]; //step 4f.i
     i++;          //step 4f.ii
     k++;          //step 4f.iii
+}
+
+// step 5
+for( int x = low; x <= high; x++)
+{
+    arr[x] = B[x];
+}
 }
