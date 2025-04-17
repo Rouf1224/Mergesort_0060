@@ -17,7 +17,8 @@ while (true)
 
 cout << "\n-------------" << endl;
 cout << "Inputkan isi elemen array" << endl;
-cout << 
+cout << "----------" << endl;
+cout << endl;
 }
 
 void mergeSort(int low, int high){
@@ -73,4 +74,14 @@ for( int x = low; x <= high; x++)
 {
     arr[x] = B[x];
 }
+}
+
+void output ()
+{
+    cout << "ndata setelah di urutkan (Merge Sort): ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
