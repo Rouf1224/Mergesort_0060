@@ -26,5 +26,18 @@ int j, k;
 j = mid + 1; //step 4b
 k = low; //step 4c
 
+while (i <= mid && j <= high) //step 4d
+{
+    if (arr[i] <= arr[j]) //step 4.d.i.1
+    {
+        B[k] = arr[i]; //step 4.d.i.2
+        i++;
+    }
+ 
 
+    else
+    {
+        B[k] = arr[i]; //step 4.d.i.3
+        j++;          //step 4.d.i.4
+    }
 }
